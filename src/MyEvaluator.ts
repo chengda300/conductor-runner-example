@@ -1,7 +1,7 @@
 import { BasicEvaluator } from "conductor/dist/conductor/runner";
 import { IRunnerPlugin } from "conductor/dist/conductor/runner/types";
 
-const eval2 = eval;
+const eval2 = eval; 
 
 export class MyEvaluator extends BasicEvaluator {
     private someEvaluatorState: number;
